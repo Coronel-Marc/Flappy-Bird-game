@@ -1,3 +1,4 @@
+
 //Cria o estado principal que irá conter o game
 var mainState = {
     preload: function() {
@@ -59,7 +60,7 @@ var mainState = {
 };
 
 //Inicializa o Phaser, e cria um box de 400px por 490px
-var game = new Phaser.Game(400,490);
+const game = new Phaser.Game(400, 490);
 
 //Adiciona o 'mainState' e chama o 'main' dentro do game
 game.state.add('main', mainState);
